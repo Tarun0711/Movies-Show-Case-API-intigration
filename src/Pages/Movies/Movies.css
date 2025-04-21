@@ -1,0 +1,20 @@
+.Main_movie__list {
+    background: url("../../assests/589553.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Main_list__title {
+font-size: 1.75rem;
+text-align: center;
+padding: 15px 100px;
+background-color: brown;
+color: white;
+}
+
+.Main_list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}

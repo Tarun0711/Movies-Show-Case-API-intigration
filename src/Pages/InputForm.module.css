@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.container input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 251, 251, 0.67);
+    color: rgb(0, 0, 0);
+}

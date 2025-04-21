@@ -1,0 +1,16 @@
+.main-search-bar{
+    height: 100vh;
+    width: 100vw;
+    background:url("../assests/Movie-websites-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.search-bar input{
+    background-color: rgba(0, 0, 0, 0.389);
+    
+    
+}

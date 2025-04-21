@@ -1,0 +1,33 @@
+.movie__list {
+    background: url("../../../assests/wallpapersden.com_original-avatar-movie-poster_1920x1080.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:-30px;
+    width: 100%;
+}
+
+.list__title {
+font-size: 1.75rem;
+color: white;
+text-align: center;
+background: rgba(70, 70, 70, 0.623);
+box-shadow: 0 4px 30px rgba(133, 133, 133, 0.415);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border-bottom: 1px solid rgb(72, 71, 71);
+}
+
+.list__cards {
+    display: flex;
+    height: 450px;
+    margin-top: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.list__cards::-webkit-scrollbar {
+    display: none;
+  }
